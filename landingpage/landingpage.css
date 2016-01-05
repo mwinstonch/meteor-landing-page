@@ -1,1 +1,159 @@
 /* CSS declarations go here */
+/* CSS declarations go here */
+#link {
+	background-image: "/JR.png";
+	width: 100px;
+	height: 100px;
+}
+/* Hides */
+#header {
+    display: none;
+}
+.comment_forbidden {
+    display: none;
+}
+
+/* content margins */
+.content {
+    margin 10px 5px 10px 5px;
+}
+
+/* field type settings */
+.field-type-link-field {
+    width: 50px !important;
+}
+
+
+.region-content-top {
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: -999;
+
+}
+
+#slider {
+width: 100vw !important;
+}
+
+
+
+/*.region-content {*/
+#content {
+    position: absolute;
+    background-color: moccasin;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    
+}
+
+/*.field-name-field-title {*/
+ #title {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+/*.field-name-field-subtitle {*/
+#subtitle {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+/*.field-name-field-btn1-link {*/
+ #btn-1 {
+ 	position: relative;
+    width: 100px;
+    height:30px;  
+    background:teal;
+    margin: 0 auto;
+    margin-bottom:10px;
+}
+/*.field-name-field-btn1-link a  { */
+#btn-1 a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/*.field-name-field-btn2-link {*/
+#btn-2 {
+    position: relative;
+    width: 100px;
+    height:30px;
+    background:red;  
+    margin: 0 auto;
+    margin-bottom:10px;
+}
+/*.field-name-field-btn2-link a { */
+#btn-2 a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/*.field-name-field-btn3-link {*/
+#btn-3 {
+    position: relative;
+    width: 100px;
+    height:30px;
+    background:green;
+    margin: 0 auto;
+    margin-bottom:10px;
+}
+/*.field-name-field-btn3-link a {*/
+#btn-3 a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/*.field-name-field-description-1 {*/
+ #desc-1 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*.field-name-field-description-2 {*/
+#desc-2 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*.field-name-field-logo-url {*/
+#logo {
+    background-image: "/udistrict-logo.jpg";
+}
+/*.field-name-field-facebook-link {*/
+#facebook {
+    padding-left: 14%;
+    background-image: url("/files/images/facebook.png");
+}
+/*.field-name-field-twitter-link {*/
+#twitter {
+    padding-left: 28%;
+}
+/*.field-name-field-instagram-link { */
+#instagram {
+    padding-left: 42%;
+}
+/*.field-name-field-pinterest-link {*/
+#pinterest {
+    padding-left: 56%;
+}
+/*.field-name-field-google-plus-link {*/
+#google-plus {
+    padding-left: 70%;
+}
+/*.field-name-field-address-contact {*/
+#address {
+
+}
+/*.field-name-field-contact {*/
+#contact {
+}
+/*.field-name-field-accessibility-logo-url {*/
+#accessibility {
+}
+    
